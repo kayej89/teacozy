@@ -145,9 +145,16 @@ margin-top: 70px;
 /* Contact Info */
 
 .contact-container {
-  text-align: center;
   margin: 0 auto;
   width: 100%;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.contact-container h2,
+.contact-container h5 {
+  margin: 10px;
 }
 
 /* Copyright Footer */
