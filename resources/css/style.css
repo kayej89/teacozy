@@ -46,6 +46,7 @@ text-decoration: underline;
   display: flex;
   flex-direction: column;
   justify-content: center;
+  margin: 0 auto;
 }
 
 /* Mission Section*/
@@ -100,4 +101,56 @@ img.teas {
   height: 200px;
   width: 300px;
   margin: 10px;
+}
+
+
+/* Locations */
+
+.locations-container {
+  height: 500px;
+  width: 1200px;
+  background-image: url(../img-locations-background.jpg);
+  margin: 0 auto;
+}
+
+div .locations-container {
+margin-top: 70px;
+}
+
+.location-header {
+  text-align: center;
+  margin-top: 70px;
+  margin-bottom: 15px;
+}
+
+.locations {
+  display: flex;
+  justify-content: center;
+}
+
+.locations-container h2 {
+  margin: 0;
+}
+
+
+.locations-text {
+  background-color: black;
+  opacity: 1;
+  width: 300px;
+  text-align: center;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+/* Contact Info */
+
+.contact-container {
+  text-align: center;
+}
+
+/* Copyright Footer */
+
+footer h5{
+  text-align: left;
+  padding-left: 20px;
 }
