@@ -56,9 +56,6 @@ text-decoration: underline;
   width: 1200px;
   background-image: url(../img-mission-background.jpg);
   margin: 0 auto;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
 }
 
 .mission {
@@ -76,10 +73,7 @@ text-decoration: underline;
 
 .tea-container {
   width: 1000px;
-  display: flex;
   margin: 0 auto;
-  flex-direction: column;
-  justify-content: center;
 }
 
 .tea-header {
@@ -145,7 +139,7 @@ margin-top: 70px;
 /* Contact Info */
 
 .contact-container {
-  text-align: center;
+  margin: 0 auto;
 }
 
 /* Copyright Footer */
